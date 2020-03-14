@@ -7,8 +7,17 @@
 
 <body>
     <div id="app">
-        <h1>{{ name }}</h1>
-        <section id="project"></section>
+        <h1>{{ author }}</h1>
+        <section id="projects">
+
+            <div v-for="project in projects">
+                <p id="program">{{ project.projectname }}</p>
+            </div>
+            <h2>website projects</h2>
+            <div v-for="project in projects">
+                <p id="website">{{ project.websitename}}</p>
+            </div>
+        </section>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="index.js"></script>

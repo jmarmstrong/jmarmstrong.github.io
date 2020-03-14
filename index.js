@@ -1,10 +1,14 @@
 var app = new Vue({
     el: '#app',
     data: {
-        name: 'Joseph Armstrong',
+        author: 'Joseph Armstrong',
         projects: [
             {
-                projectname: azerty - the - discord - bot
+                projectname: 'azerty - the - discord - bot'
+            },
+
+            {
+                websitename: 'Elemental Industries'
             }
         ]
     }
