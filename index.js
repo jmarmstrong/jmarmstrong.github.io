@@ -4,11 +4,11 @@ var app = new Vue({
         author: 'Joseph Armstrong',
         projects: [
             {
-                projectname: 'azerty - the - discord - bot'
+                projectname: 'azerty-the-discord-bot'
             },
 
             {
-                websitename: 'Elemental Industries'
+                projectname: 'Elemental Industries'
             }
         ]
     }
