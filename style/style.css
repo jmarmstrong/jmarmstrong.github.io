@@ -1,5 +1,6 @@
 body {}
 
+
 h1 {
     text-align: center;
 }
@@ -20,8 +21,12 @@ section {
     margin: 6px;
     border-radius: 30px;
     color: white;
+    width: 60%;
 }
 
+#github{
+    text-align: right;
+}
 @media (min-width: 700px) {
    body > section {
         display: grid;
