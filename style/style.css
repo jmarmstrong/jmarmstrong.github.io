@@ -1,37 +1,21 @@
-body {}
+body{
+    background-color: #2d3030;
+}
 
-
-h1 {
+div.home {
+    color: #35778f;
     text-align: center;
-}
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
 
-nav{
-      background-color: black;
-    transition: 1.5s;
+div.links {
     padding: 5px;
-    margin: 6px;
-    border-radius: 30px;
-    color: white;
+    text-align: center;
+    background-color: aqua;
+    position: fixed;
+    
 }
-
-section {
-    background-color: black;
-    transition: 1.5s;
-    padding: 5px;
-    margin: 6px;
-    border-radius: 30px;
-    color: white;
-    width: 60%;
-}
-
-#github{
-    text-align: right;
-}
-@media (min-width: 700px) {
-   body > section {
-        display: grid;
-        grid-auto-flow: row;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 20px;
-        margin: 20px;
-    }
