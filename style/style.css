@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #2d3030;
 }
 
@@ -10,12 +10,41 @@ div.home {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) }
+    transform: translate(-50%, -50%)
+}
 
-div.links {
-    padding: 5px;
+nav {
+    background-color: #3b4040;
+    padding: 10px;
     text-align: center;
-    background-color: aqua;
-    position: fixed;
-    
+}
+
+nav p {
+    text-align: center;
+    color: #ffffff;
+    background-color: #35778f;
+    transition: 1.5s;
+    padding: 5px;
+    margin: 6px;
+    border-radius: 100px;
+}
+
+nav p a {
+    text-decoration: none;
+
+}
+
+nav p:hover {
+    border-radius: 0px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+@media (min-width: 700px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-between;
+    }
 }
